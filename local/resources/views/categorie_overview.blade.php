@@ -22,9 +22,6 @@
             <a href="{{ asset($cat->fullresfoto) }}" data-lightbox="{{ $cat->naam }}" data-title="{{ $cat->naam }}">
                 <img src="{{ asset($cat->coverfoto) }}" alt="{{ $cat->naam }}"/>
             </a>
-            <!--<div class="producten_caption" >
-                <a href="{{ route('producten') }}/{{ $cat->cat_linknaam }}">{{ $cat->naam }}</a>
-            </div>		-->
         </div>
         <div class="catoverzicht_subcat">
             @foreach($subcategories as $subcat)
@@ -59,4 +56,3 @@
 <script src="js/smoothscroll.js"></script>
 <script src="{{ asset('bower_components/lightbox2/dist/js/lightbox.min.js') }}"></script>
 @endsection
-
