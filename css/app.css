@@ -464,8 +464,7 @@ a.boringlink:hover {
 /* End of Toolbar */
 /* Menu */
 header .logo {
-  width: 100%;
-  margin-bottom: 2rem; }
+  width: 100%; }
   @media (min-width: 60em) {
     header .logo {
       width: auto; } }
@@ -566,7 +565,6 @@ header .header_bestelling a:hover {
       margin: 0 1rem 0 0; } }
 
 .catmenu li, .catmenu .catmenu_title {
-  height: 4rem;
   border: 1px solid #9E9E9E;
   margin-top: -1px; }
 
@@ -585,7 +583,7 @@ header .header_bestelling a:hover {
   display: inline-block; }
 
 .catmenu a:hover, .catmenu li.active a:hover, .catmenu ul li.active a:hover {
-  color: #A7F43D; }
+  color: #78AF2C; }
 
 .catmenu li.active a, .catmenu ul li.active a {
   color: #78AF2C; }
@@ -667,7 +665,8 @@ header .header_bestelling a:hover {
 .breadcrumb {
   height: 4rem;
   padding: 0 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  text-align: left; }
   @media (min-width: 45em) {
     .breadcrumb {
       height: 4rem; } }

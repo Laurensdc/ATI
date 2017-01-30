@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'as-tegel.be.mysql'),
+            'host' => env('DB_HOST', 'alltilesimport.com.mysql'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'as_tegel_be'),
-            'username' => env('DB_USERNAME', 'as_tegel_be'),
-            'password' => env('DB_PASSWORD', 'aqw42kr5'),
+            'database' => env('DB_DATABASE', 'alltilesimport_'),
+            'username' => env('DB_USERNAME', 'alltilesimport_'),
+            'password' => env('DB_PASSWORD', 'FeuMdzkh'),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',

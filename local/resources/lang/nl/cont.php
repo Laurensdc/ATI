@@ -23,7 +23,7 @@ return [
 	"prijzen_afgehaald" =>  "Alle prijzen zijn afgehaald te Desselgem. Exclusief BTW.",
     "nicest_products"   => "Vind de natuursteen die bij u past",
     "explore_collection" => "Ontdek gamma",
-    "spotlight"         => "In de kijker",
+    "spotlight"         => "Spotlight",
     "spotlight_text"    => "Tijdelijke aanbiedingen",
     "bekijk"            => "Bekijk",
     "prijslijst"        => "Prijslijst",
