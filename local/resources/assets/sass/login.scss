@@ -1,0 +1,46 @@
+.toolbar_content_small {
+	width:80%;
+	margin:0 10%;
+	padding:0.5rem 0;
+}
+
+.login_panel {
+	width:60%;
+	margin: 0 auto;
+	margin-top:4rem;
+}
+
+.login_panel div {
+    margin-bottom:1rem;
+    padding-bottom:1rem;
+    border-bottom:1px solid $graywhite;
+}
+
+.login_panel label {
+	display:inline-block;
+	width:20rem;
+}
+
+.login_panel h2 {
+	margin-bottom:2rem;
+}
+
+.login_panel p {
+	margin-bottom:3rem;
+}
+
+.login_handelaar {
+	margin-top:1rem;
+}
+.login_handelaar p {
+	line-height:2.4rem;
+	margin-left:1rem;
+}
+
+.input_btw {
+    display:none;
+}
+
+.login_panel p.handelaar_tekst {
+    margin:1rem 0;
+}

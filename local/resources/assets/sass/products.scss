@@ -1,0 +1,137 @@
+/* Producten content, Categorie overzicht */
+.producten_content {
+	background-color:$almostwhite;
+	overflow:hidden;
+	padding:1rem;
+}
+
+.producten_content h2 {
+	font-size:2.2rem;
+	padding:1rem 0 1rem 1.5%;
+	margin-bottom:2rem;
+}
+	
+.producten_content {
+    @media (min-width: $screen_medium) {
+        padding:0;
+    }
+
+    article {
+        overflow:hidden;
+
+        background-size:cover;
+        background-position:center top;				
+        margin-bottom: 7rem;
+
+        width:100%;
+        float:left;
+        margin:1rem 0;
+
+        @media (min-width: $screen_mediumbig) {
+            width:31.33333%;
+            float:left;
+            margin:0 1% 2%;           
+        }
+        font-size:1.4rem;
+
+        // &:hover {
+        //     box-shadow:1px 1px 3px 1px rgba(0,0,0,0.15);
+        // }
+
+        padding:0.5rem;
+
+        h1 {
+            margin:1rem 0;
+            font-size:1.8rem;
+            font-weight:800;
+            font-size:1.6rem;
+        }
+
+        p {
+            margin-bottom: 2rem;
+            font-size:1.3rem;
+        }
+
+        li {
+            font-size:1.4rem;
+        }
+    }
+
+    ul {
+        margin-bottom: 2rem;
+        font-size:1.6rem;
+	}
+
+    li {
+		height:2.2rem;
+	}
+
+    img {
+        width:100%;
+    }
+}
+
+
+/* Order */
+.ordercontent {
+    padding:2rem;
+    .ml {
+        margin-left:8rem;
+    }
+
+    .controls {
+        p {
+            margin-top:3rem;
+        }
+    }
+
+    .backtoproducts {
+        margin: 8rem 0 4rem;
+    }
+
+    @media (min-width:$screen-small) {
+        padding:2rem 6rem;
+    }
+
+    h2 {
+	    margin:5rem 0 2rem;
+        font-size:2rem;
+    }
+
+
+    @media (min-width:$screen-big) {
+        padding:0;
+    }
+}
+
+.order_item {
+    margin:0.5rem 0 3rem 2rem;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+	height:4rem;
+	padding:0 1rem;
+	margin-bottom:1rem;
+	//background-color:$almostwhite;
+
+    @media (min-width: $screen_medium) {
+        height:4rem;
+    }
+
+    p {
+        line-height:2rem;
+        font-size:1.4rem;
+
+        @media (min-width: $screen_medium) {
+            line-height:4rem;
+            font-size:1.6rem;        
+        }      
+    }
+}
+
+.toast-center {
+    top: 12rem;
+    margin: 0 auto;
+    right: 15%;
+}
