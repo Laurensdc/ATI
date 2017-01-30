@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-	
+
 	<div class='contact_content'>
 		<h2>Contactinformatie</h2>
 		<p>Voor gelijk welke vragen of opmerkingen kan u steeds bij ons terecht.</p>
@@ -9,7 +9,7 @@
 		<ul>
 			<li><span class='contact_content_left'>Adres:</span> Pitantiestraat 90, Desselgem</li>
 			<li><span class='contact_content_left'>Telefoonnummer:</span> 0475/27.37.17</li>
-			<li><span class='contact_content_left'>E-mail:</span> <a href="mailto:info@as-tegel.be">info@as-tegel.be</a></li>
+			<li><span class='contact_content_left'>E-mail:</span> <a href="mailto:info@alltilesimport.com">info@alltilesimport.com</a></li>
 		</ul>
 
 		<div class='contact_gap'></div>
@@ -17,12 +17,12 @@
 		<h2>Ontmoet het team</h2>
 		<h3>Chris - Bedrijfsleider / Public Relations</h3>
 		<ul>
-			<li><span class='contact_content_left'>E-mail: </span><a href="mailto:chris@as-tegel.be">chris@as-tegel.be</a></li>
+			<li><span class='contact_content_left'>E-mail: </span><a href="mailto:chris@alltilesimport.com">chris@alltilesimport.com</a></li>
 		</ul>
 
 		<h3>Xavier - Public relations / Order Management / Accounting</h3>
 		<ul>
-			<li><span class='contact_content_left'>E-mail: </span><a href="mailto:xavier@as-tegel.be">xavier@as-tegel.be</a></li>
+			<li><span class='contact_content_left'>E-mail: </span><a href="mailto:xavier@alltilesimport.com">xavier@alltilesimport.com</a></li>
 			<li><span class='contact_content_left'>Telefoonnummer: </span>0475/27.37.17</li>
 		</ul>
 
@@ -30,7 +30,7 @@
 
 		<h2>Vragen over de website? Een fout gevonden?</h2>
 		<ul>
-			<li><span class='contact_content_left'>Contacteer webmaster: </span><a href="mailto:webmaster@as-tegel.be">webmaster@as-tegel.be</a></li>
+			<li><span class='contact_content_left'>Contacteer webmaster: </span><a href="mailto:webmaster@alltilesimport.com">webmaster@alltilesimport.com</a></li>
 		</ul>
 
         <div class='contact_gap'></div>

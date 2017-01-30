@@ -322,17 +322,13 @@ header {
   width: 96%;
   margin: 1.5rem 2%;
   height: 12rem; }
-  @media (min-width: 45em) {
-    header {
-      height: 11rem; } }
-  @media (min-width: 55em) {
+  @media (min-width: 60em) {
     header {
       height: 6rem; } }
   @media (min-width: 85em) {
     header {
       width: 70%;
-      margin: 1.5rem 15%;
-      height: 6rem; } }
+      margin: 1.5rem 15%; } }
 
 .toolbar_content {
   width: 96%;
@@ -355,11 +351,11 @@ header {
 /* End of content widths */
 a {
   text-decoration: none;
-  color: #78AF2C;
+  color: #589800;
   transition: 0.2s ease-in-out; }
 
 a:hover {
-  color: #A7F43D;
+  color: #78AF2C;
   text-decoration: underline; }
 
 p {
@@ -418,7 +414,7 @@ a.boringlink:hover {
 
 .quote:before, .quote:after {
   font-family: serif;
-  font-weight: 800; }
+  font-weight: 700; }
 
 .quote:after {
   content: " \201D";
@@ -440,21 +436,16 @@ a.boringlink:hover {
   @media (min-width: 28.5em) {
     .toolbar {
       font-size: 1.6rem; } }
-
-.toolbar a {
-  color: #FAFAFA; }
-
-.toolbar a:hover, .toolbar a.active:hover {
-  color: #A7F43D; }
-
-.toolbar a.active {
-  color: #78AF2C; }
-
-.toolbar div {
-  float: left; }
-
-.toolbar .toolbar_right {
-  float: right; }
+  .toolbar a {
+    color: #FAFAFA; }
+  .toolbar a:hover, .toolbar a.active:hover {
+    color: #A7F43D; }
+  .toolbar a.active {
+    color: #78AF2C; }
+  .toolbar div {
+    float: left; }
+  .toolbar .toolbar_right {
+    float: right; }
 
 .toolbar_account {
   margin-left: 1rem; }
@@ -473,15 +464,17 @@ a.boringlink:hover {
 /* End of Toolbar */
 /* Menu */
 header .logo {
-  width: 100%; }
-  @media (min-width: 45em) {
+  width: 100%;
+  margin-bottom: 2rem; }
+  @media (min-width: 60em) {
     header .logo {
       width: auto; } }
 
 header img {
   height: 100%;
-  max-width: 30rem; }
-  @media (min-width: 45em) {
+  max-width: 30rem;
+  margin-right: 10rem; }
+  @media (min-width: 60em) {
     header img {
       max-height: 6rem;
       height: auto;
@@ -497,7 +490,8 @@ header li a {
   height: 6rem;
   line-height: 6rem;
   font-size: 1.8rem;
-  color: #111; }
+  color: #111;
+  text-transform: uppercase; }
   @media (min-width: 28.5em) {
     header li a {
       padding: 1rem 3rem;
@@ -510,10 +504,11 @@ header li:first-of-type a {
   padding-left: 0; }
 
 header li a.active {
-  color: #78AF2C; }
+  color: #589800;
+  border-bottom: 1px solid #589800; }
 
 header li a:hover {
-  color: #A7F43D;
+  color: #78AF2C;
   text-decoration: none; }
 
 header .header_bestelling {
@@ -576,7 +571,7 @@ header .header_bestelling a:hover {
   margin-top: -1px; }
 
 .catmenu .catmenu_title {
-  font-weight: 600;
+  font-weight: 700;
   background-color: #FAFAFA; }
 
 .catmenu ul {
@@ -628,7 +623,7 @@ header .header_bestelling a:hover {
   .producten_content article h1 {
     margin: 1rem 0;
     font-size: 1.8rem;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.6rem; }
   .producten_content article p {
     margin-bottom: 2rem;
@@ -763,7 +758,7 @@ header .header_bestelling a:hover {
         display: inline-block; } }
 
 .homecontainer .homepromo {
-  border: 1px solid #424242;
+  border: 1px solid #589800;
   background-color: #FFFFFF;
   margin: 6rem 0 0; }
   .homecontainer .homepromo .producten_content {
@@ -779,13 +774,13 @@ header .header_bestelling a:hover {
           padding-bottom: 1rem;
           border: 0; } }
   .homecontainer .homepromo .homepromo_banner {
-    background-color: #424242;
+    background-color: #589800;
     color: #FAFAFA;
     line-height: 3rem;
     margin-bottom: 1rem;
     padding: 1rem 0 1rem 3rem; }
     .homecontainer .homepromo .homepromo_banner h2 {
-      font-weight: 800;
+      font-weight: 700;
       font-size: 3rem;
       margin-right: 3rem;
       display: inline-block; }

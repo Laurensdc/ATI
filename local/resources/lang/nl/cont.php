@@ -21,8 +21,8 @@ return [
     "vraag_offerte"     => "Vraag offerte aan",
 	"orderit"		    => "Plaats bestelling",
 	"prijzen_afgehaald" =>  "Alle prijzen zijn afgehaald te Desselgem. Exclusief BTW.",
-    "nicest_products"   => "Bekijk enkele van onze mooiste producten",
-    "explore_collection" => "Ontdek aanbod",
+    "nicest_products"   => "Vind de natuursteen die bij u past",
+    "explore_collection" => "Ontdek gamma",
     "spotlight"         => "In de kijker",
     "spotlight_text"    => "Tijdelijke aanbiedingen",
     "bekijk"            => "Bekijk",
@@ -36,14 +36,14 @@ return [
     "item_verwijderen"  => "Verwijder item",
     "alle_items_verwijderen" => "Alle items verwijderen",
     "totaal"            => "Totaal",
-    "ikwildop"          => "Ja, ik wens een DOP certificaat te ontvangen met mijn bestelling.",    
+    "ikwildop"          => "Ja, ik wens een DOP certificaat te ontvangen met mijn bestelling.",
     "notavailable"      => "Prijs niet beschikbaar",
     "about"             => "Over ons",
     "or"                => "Of",
     "gettoknowus"       => "Leer ons kennen",
     "contactus"         => "Contacteer ons",
 
-    
+
 
 
 

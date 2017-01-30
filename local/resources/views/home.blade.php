@@ -100,10 +100,13 @@
     <div class="hometext">
 
         <p>
+            <p>{{ trans('cont.nicest_products') }}</p>
 
-            {{ trans('cont.nicest_products') }}
+            <br>
 
-            <a href="{{ route('producten') }}" class="btn">{{ trans('cont.explore_collection') }}</a>
+            <p>
+                <a href="{{ route('producten') }}" class="btn">{{ trans('cont.explore_collection') }}</a>
+            </p>
 
         </p>
 

@@ -10,8 +10,8 @@
 
 <div class="breadcrumb">
 	<p>
-		<a href="{{ route('producten') }}">{{ trans('cont.products') }}</a> 
-		&raquo; <a href="{{ route('producten') }}#{{ $catmenu_active }}">{{ $hoofdcategorie }}</a> 
+		<a href="{{ route('producten') }}">{{ trans('cont.products') }}</a>
+		&raquo; <a href="{{ route('producten') }}#{{ $catmenu_active }}">{{ $hoofdcategorie }}</a>
 		&raquo; {{ $subcategorie }}
 	</p>
 </div>
@@ -26,19 +26,19 @@
 	@if($producten->isEmpty())
 		<p>&nbsp;&nbsp; {{ trans('cont.noproducts') }}</p><br>
 	@else
-		
+
 		@foreach($producten as $i=>$p)
-			<article>	
+			<article>
 				<a href="{{ asset($p->fullresfoto) }}" data-lightbox="{{ $p->naam }}" data-title="{{ $p->naam }}">
 					<img src="{{ asset($p->coverfoto) }}"/>
 				</a>
-				
+
 				<h1>{{ $p->naam }}</h1>
 				<ul>
 					<li>{{ trans('cont.dimensions') }}: {{ $p->afmetingen }}</li>
 					@if(Auth::check())
 						@if(Auth::user()->role == 'handelaar')
-                            @if($p->prijs_handelaar == '' || $p->prijs_handelaar == 0) 
+                            @if($p->prijs_handelaar == '' || $p->prijs_handelaar == 0)
                             <li>{{ trans('cont.notavailable') }}.</li>
                             @else
 							<li>{{ trans('cont.price') }}: &euro;{{ $p->prijs_handelaar }}/{!! $p->eenheid !!}</li>
@@ -47,7 +47,7 @@
 					@endif
 
 				</ul>
-				
+
 				@if(isset($p->beschrijving))
 					<p>{{{ $p->beschrijving }}}</p>
 				@endif
@@ -55,12 +55,7 @@
 				@if($p->invoorraad == false)
 					<p class="txt_warning">{{ trans('cont.nostock') }}.</p>
 				@endif
-                <form action="" method="post" name="form">
-                    {{ csrf_field() }}
-                    <input type="hidden" value="{{ $p->id }}" name="prod_id">
-                    <p>{{ trans('cont.add') }} <input type="number" name="vierkantemeter" min="1" max="999" value="0" required/>x 1 {!! $p->eenheid !!} {{ trans('cont.toorder') }}.</p> 
-                    <p><input type="submit" clas="btn btn_cta" value="{{ trans('cont.order') }}"/></p>
-                </form>
+                
 			</article>
 
 			@if(($i+1)%3 == 0)

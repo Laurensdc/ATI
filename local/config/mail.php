@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'mailer@as-tegel.be', 'name' => 'AS-Tegel'],
+    'from' => ['address' => 'mailer@alltilesimport.com', 'name' => 'All Tiles Import'],
 
     /*
     |--------------------------------------------------------------------------
@@ -94,7 +94,7 @@ return [
     */
 
     //'username' => env('postmaster@sandboxffda3837484548619267fb4846e1a2b6.mailgun.org'),
-    'username' => 'mailer@as-tegel.be',
+    'username' => 'mailer@alltilesimport.com',
 
     /*
     |--------------------------------------------------------------------------
@@ -108,7 +108,7 @@ return [
     */
 
     //'password' => env('c9e8595ce149a959ada8a40c953bc366'),
-    'password' => 'astegel2737',
+    'password' => 'alltiles2737',
 
     /*
     |--------------------------------------------------------------------------

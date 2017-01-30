@@ -43,12 +43,6 @@ Route::get('/producten', ['middleware' => 'lang', 'as' => 'producten', 'uses' =>
 Route::get('/producten/{cat}/{subcat}', ['middleware' => 'lang', 'uses' => 'ProductenController@categorieDetail']);
 Route::post('/producten/{cat}/{subcat}', ['middleware' => 'lang', 'uses' => 'ProductenController@bestelProduct']);
 
-// Bestellingen
-Route::get('/order', ['middleware' => 'lang', 'uses' => 'OrderController@overview', 'as' => 'order']);
-Route::get('/order/delete', ['middleware' => 'lang', 'uses' => 'OrderController@deleteorder', 'as' => 'deleteorder']);
-Route::get('/order/place', ['middleware' => 'lang', 'uses' => 'OrderplaceController@placeOrder', 'as' => 'placeorder']);
-Route::get('/order/delete/{id}',['middleware' => 'lang', 'uses' => 'OrderController@deleteOne']);
-Route::get('/order/toggledop', ['middleware' => 'lang', 'uses' => 'OrderController@toggledop', 'as' => 'dop']);
 
 // Auth
 Route::auth();
