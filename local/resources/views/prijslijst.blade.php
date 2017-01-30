@@ -6,12 +6,12 @@
 		<meta name="description" content="Natuursteen, keramiek en veel meer."> <!-- site description goes here -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="{{ asset('assets/icon.png') }}"/>
-		<title>Prijslijst &ndash; As-Tegel</title>
+		<title>Prijslijst &ndash; All Tiles Import</title>
 		<link rel="stylesheet" href="{{ asset('css/app.css') }}" media="screen,print"/>
 	</head>
 	<body>
         <div class='prijslijst_content'>
-            <h2>Prijslijst AS-Tegel</h2>
+            <h2>Prijslijst All Tiles Import</h2>
             @if(!Auth::check() || (Auth::user()->role != 'handelaar'))
                 <p>Onze prijslijst is enkel voor handelaars beschikbaar.</p>
                 <p><a href="{{ route('producten') }}">&larrhk; Terug naar site</a></p>

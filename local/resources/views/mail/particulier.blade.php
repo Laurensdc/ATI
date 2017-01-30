@@ -1,4 +1,4 @@
-<h2>Registratie AS-Tegel</h2>
+<h2>Registratie All Tiles Import</h2>
 <p>{{ $achternaam }} {{ $voornaam }} heeft zich als particulier geregistreerd.</p>
 <br>
 <h2>Gegevens</h2>
@@ -11,4 +11,3 @@
 <p><a href="{{ route('admin') }}">Naar administrator panel</a></p>
 
 <br>
-

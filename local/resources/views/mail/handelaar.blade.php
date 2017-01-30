@@ -1,4 +1,4 @@
-<h2>Registratie AS-Tegel</h2>
+<h2>Registratie All Tiles Import</h2>
 <p>{{ $achternaam }} {{ $voornaam }} heeft zich als handelaar willen registreren.</p>
 <br>
 <h2>Gegevens</h2>
@@ -20,4 +20,3 @@ Om af te keuren, geen handeling ondernemen (gebruiker blijft een particulier).
 <p><a href="{{ route('admin') }}">Naar administrator panel</a></p>
 
 <br>
-

@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="{{ asset('assets/icon.png') }}"/>
 
-		<title>{{ $title }} &ndash; As-Tegel</title>
+		<title>{{ $title }} &ndash; All Tiles Import</title>
 		<link rel="stylesheet" href="{{ asset('css/app.css') }}"/>
 		@yield('css')
 	</head>
