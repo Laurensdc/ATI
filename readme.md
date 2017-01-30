@@ -1,4 +1,4 @@
-# http://www.as-tegel.be
+# http://www.alltilesimport.com
 
 ## Features
 - Product weergave -> prijzen wanneer ingelogd als Handelaar

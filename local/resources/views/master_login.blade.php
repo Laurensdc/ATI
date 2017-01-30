@@ -5,7 +5,7 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="description" content="Natuursteen, keramiek en veel meer."> <!-- site description goes here -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="{{ asset('assets/favicon.gif') }}"/>
+		<link rel="icon" href="{{ asset('assets/icon.png') }}"/>
 
 		<title>{{ $title }} &ndash; As-Tegel</title>
 		<link rel="stylesheet" href="{{ asset('css/app.css') }}"/>
@@ -34,6 +34,6 @@
 		</div>
 
 		@yield('javascript')
-		
+
 	</body>
 </html>

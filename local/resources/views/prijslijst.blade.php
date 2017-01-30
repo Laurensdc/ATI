@@ -5,7 +5,7 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="description" content="Natuursteen, keramiek en veel meer."> <!-- site description goes here -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="{{ asset('assets/favicon.gif') }}"/>
+		<link rel="icon" href="{{ asset('assets/icon.png') }}"/>
 		<title>Prijslijst &ndash; As-Tegel</title>
 		<link rel="stylesheet" href="{{ asset('css/app.css') }}" media="screen,print"/>
 	</head>
@@ -20,7 +20,7 @@
                     <h3>{{ $c->naam }}</h3>
                     @foreach($subcategories as $s)
                         @if($s->categorie_id == $c->id)
-                            @foreach($producten as $p) 
+                            @foreach($producten as $p)
                                 @if($s->id == $p->subcategorie_id)
                                     <div class="item">
                                         <div class="left">
@@ -45,7 +45,6 @@
             <br><br><br><br>
             <p><a href="{{ route('producten') }}">&larrhk; Terug naar site</a></p>
             @endif
-        </div>   
+        </div>
 	</body>
 </html>
-

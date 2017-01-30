@@ -5,10 +5,13 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="description" content="Natuursteen, keramiek en veel meer."> <!-- site description goes here -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="{{ asset('assets/favicon.gif') }}"/>
+		<link rel="icon" href="{{ asset('assets/favicon-300.png') }}"/>
+		<link rel="apple-touch-icon" href="{{ asset('assets/favicon-152.png') }}"/>
 
-		<title>{{ $title }} &ndash; As-Tegel</title>
+		<title>{{ $title }} &ndash; All Tiles Import</title>
 		<link rel="stylesheet" href="{{ asset('css/app.css') }}"/>
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+        
 		@yield('css')
 	</head>
 	<body>
@@ -17,7 +20,7 @@
                 <div class="toolbar_content">
                     <div class="toolbar_left">
                         <div class="toolbar_languages">
-                            <a href="{{ route('home') }}/lang/nl" @if(Cookie::get('ln') == 'nl') class="active" @endif>NL</a> - 
+                            <a href="{{ route('home') }}/lang/nl" @if(Cookie::get('ln') == 'nl') class="active" @endif>NL</a> -
                             <a href="{{ route('home') }}/lang/fr" @if(Cookie::get('ln') == 'fr') class="active" @endif>FR</a> -
                             <a href="{{ route('home') }}/lang/en" @if(Cookie::get('ln') == 'en') class="active" @endif>EN</a></div>
                     </div>
@@ -39,11 +42,11 @@
                 <ul>
                     <li><a href="{{ route('home') }}"  class="logo"><img src="{{ asset('assets/logo.png') }}" alt="Logo"/></a></li>
                     <li><a href="{{ route('home') }}" @if($headermenu_active === 'home') class="active" @endif>Home</a></li>
-                    <li><a href="{{ route('producten') }}" @if($headermenu_active === 'producten') class="active" @endif>{{ trans('cont.products') }}</a></li>				
-                    <li><a href="{{ route('contact') }}" @if($headermenu_active === 'contact') class="active" @endif>Contact</a></li>			
+                    <li><a href="{{ route('producten') }}" @if($headermenu_active === 'producten') class="active" @endif>{{ trans('cont.products') }}</a></li>
+                    <li><a href="{{ route('contact') }}" @if($headermenu_active === 'contact') class="active" @endif>Contact</a></li>
                 </ul>
                 <div class="header_bestelling">
-                    <p> 
+                    <p>
                         <a href="{{ route('order') }}">
                             <!--<img src="{{ asset('assets/icon-order.png') }}" class="order-icon" alt="Order icon"/>-->
                             <span class="icon-basket"></span> {{ trans('cont.bestelling') }} ({{ count(Session::get('orderitems')) }} items)
@@ -83,7 +86,7 @@
             </div>
 
         </footer>
-        
+
 		@yield('javascript')
 
 	</body>

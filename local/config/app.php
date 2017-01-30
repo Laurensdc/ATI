@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://localhost/'),
 
     /*
     |--------------------------------------------------------------------------
@@ -92,7 +92,7 @@ return [
     */
 
     //'key' => env('APP_KEY'),
-     'key' => 'jdifjeIJIJIJFIEJdiJIJEFDafadfeiw',
+     'key' => 'jdaasaIJIJIASAEJdiJIasFDafadfeiw',
 
     'cipher' => 'AES-256-CBC',
 
@@ -209,7 +209,7 @@ return [
         'Form' => 'Collective\Html\FormFacade',
         'Html' => 'Collective\Html\HtmlFacade',
         'Image' => Intervention\Image\Facades\Image::class,
-        
+
 
     ],
 

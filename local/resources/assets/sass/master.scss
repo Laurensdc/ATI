@@ -6,7 +6,7 @@ html {
 
 body {
 	font-size:1.6rem;
-	font-family: "Verdana", sans-serif;
+	font-family: "Droid Sans", sans-serif;
 
 	background-color: $actuallywhite;
 	min-width:30rem;
@@ -29,7 +29,7 @@ body {
 
 /* Wrap around everything (also header and toolbar) for sticky footer */
 .contentwrapper {
-    
+
     min-height:100%;
     margin-bottom:-28rem;
 }
@@ -108,9 +108,9 @@ ul, li {
 		display:inline-block;
 
 		box-shadow: 0 1px 3px rgba(0,0,0,0.20);
-		border-radius: 5px;
+		//border-radius: 5px;
 		border:0;
-		
+
 		padding:1rem 2rem;
 		margin-top:1rem;
 		font-size:1.6rem;
@@ -129,23 +129,23 @@ ul, li {
 		padding:1rem 2rem;
 
 		display:inline-block;
-		border-radius: 5px;		
+		//border-radius: 5px;
 	}
 
 	a.btn {
-		background-color:$colora;
+		background-color:$colora-darker;
 		color:$almostwhite;
 		box-shadow: 0 1px 3px rgba(0,0,0,0.20);
 	}
 
 	a.btn:hover {
-		background-color:$colora_lighter;
+		background-color:$colora;
 		box-shadow: 2px 3px 5px rgba(0,0,0,0.25);
         text-decoration:none;
 	}
 
 
-	.btn_warning { 
+	.btn_warning {
 		color:$almostwhite;
 		background-color:$colorb;
 	}
@@ -164,7 +164,7 @@ ul, li {
     .quote:before, .quote:after {
         font-family:serif;
         font-weight:800;
-        
+
 
     }
 
@@ -198,7 +198,7 @@ ul, li {
         font-size:1.6rem;
     }
 
-    
+
 }
 
 .toolbar a {
@@ -240,7 +240,7 @@ ul, li {
     @media (min-width: $screen_mediumbig) {
         display:block;
     }
-	
+
 }
 
 
@@ -266,7 +266,7 @@ header img {
         max-height:6rem;
         height:auto;
         max-width:auto;
-    }  
+    }
 }
 
 header li {
@@ -276,7 +276,7 @@ header li {
 header li a {
 	display:inline-block;
 	float:left;
-	
+
 	padding:1rem;
 	height:6rem;
 	line-height:6rem;
@@ -319,7 +319,7 @@ header .header_bestelling {
         top:0; right:0;
         float:right;
         margin-left:2rem;
-        
+
         height:6rem;
         width:22rem;
     }
@@ -346,7 +346,7 @@ header .header_bestelling a:hover {
 .order-icon {
     height:2rem;
     float:left;
-    
+
     margin-top:0.2rem;
     margin-right:0.5rem;
 

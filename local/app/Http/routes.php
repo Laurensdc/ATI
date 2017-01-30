@@ -17,6 +17,10 @@ Route::get('/home', function() {
 	return redirect()->route('home');
 });
 
+Route::get('/test', function() {
+    return 'test';
+});
+
 // Lang
 Route::get('/lang/{ln}', 'HomeController@lang');
 
